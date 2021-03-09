@@ -17,7 +17,6 @@ public class Prim {
         Scanner keyIn = new Scanner(System.in);
         AdjMatrix adm = new AdjMatrix();
         int size;
-        int lenght = 0;
         char[] prim;
         int[] weight;
         int[] accessed;
