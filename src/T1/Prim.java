@@ -1,3 +1,4 @@
+package T1;
 import java.util.Scanner;
 
 /*
@@ -73,3 +74,16 @@ public class Prim {
         for (int i = 0; i < size; i++)  System.out.print(prim[i]);
     }
 }
+
+/*
+* description: 样例
+* */
+/*
+0 12 0 0 0 16 14
+12 0 10 0 0 7 0
+0 10 0 3 5 6 0
+0 0 3 0 4 0 0
+0 0 5 4 0 2 8
+16 7 6 0 2 0 9
+14 0 0 0 8 9 0
+*/
