@@ -28,5 +28,7 @@ public class Sequential_Search {
 
         if(seekIndex == -1) System.out.println("未找到该数.");
         else                System.out.println("该数的下标为:" + seekIndex);
+
+        keyIn.close();
     }
 }
