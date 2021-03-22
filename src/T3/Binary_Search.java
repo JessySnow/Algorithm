@@ -28,5 +28,7 @@ public class Binary_Search {
 
         if(seekIndex != -1)    System.out.println("在数组中的下标位置是：" + seekIndex);
         else                   System.out.println("不在数组中");
+
+        keyIn.close();
     }
 }

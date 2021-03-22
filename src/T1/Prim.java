@@ -72,6 +72,8 @@ public class Prim {
         //输出对应的最小生成树序列
         System.out.println("从 " + adm.Vertex[SP] + " 出发的最小生成树对应序列如下:");
         for (int i = 0; i < size; i++)  System.out.print(prim[i]);
+
+        keyIn.close();
     }
 }
 

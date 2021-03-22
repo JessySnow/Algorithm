@@ -100,6 +100,8 @@ public class Kruskal {
             int endP   = sides[i].end;
             if(parents.unify(startP, endP)) System.out.println(startP + "----" + endP);
         }
+
+        keyIn.close();
     }
 }
 
