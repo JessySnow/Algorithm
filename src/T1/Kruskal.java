@@ -75,7 +75,6 @@ public class Kruskal {
         sideNum = keyIn.nextInt();      //边数
         pNum = keyIn.nextInt();         //顶点数
 
-
         //初始化或填充数组;初始化并查集
         sides = new side[sideNum];
         System.out.println("输入边的起点和终点及其权值");
