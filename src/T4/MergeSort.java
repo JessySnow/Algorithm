@@ -17,7 +17,7 @@ public class MergeSort {
         int mid = (start + end) >>> 1;
         mergesort(array, start, mid);
         mergesort(array, mid + 1, end);
-        //合并
+
         merge(array, start, mid, end);
     }
 
