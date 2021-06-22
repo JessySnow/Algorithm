@@ -25,9 +25,9 @@ int main() {
 	for (x = 0; x < m + 1; ++x) {
 		F[0][x] = f[0][x];	//第一个项目上投入0-m万元钱的最大收益等于f[0][0-m]
 	}
-	for (k = 1; k < n; ++k) {				//第 k个项目
-		for (x = 0; x < m + 1; ++x) {		//k个项目共分配x万元
-			for (xk = 0; xk <= x; ++xk) {	//第k个项目分配xk万元
+	for (k = 1; k < n; ++k) {				
+		for (x = 0; x < m + 1; ++x) {		
+			for (xk = 0; xk <= x; ++xk) {
 				Tp = F[k - 1][x - xk] + f[k][xk];
 				if (Tp > F[k][x])
 					F[k][x] = Tp;
